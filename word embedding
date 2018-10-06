@@ -1,7 +1,6 @@
-Word embedding using gensim and spacy
+Word embedding using gensim 
 ####################################################################################
-import spacy
-
+import gensim
 from gensim.models import KeyedVectors
 # load the google word2vec model
 filename = 'GoogleNews-vectors-negative300.bin'
